@@ -1,12 +1,12 @@
 {
-    "name": "vpgame/lumen-installer",
+    "name": "vp/lumen-installer",
     "description": "Lumen application installer.",
-    "keywords": ["vpgame", "lumen"],
+    "keywords": ["vp", "lumen"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylorotwell@gmail.com"
+            "name": "wangzhenyi",
+            "email": "wangzhenyi2011@163.com"
         }
     ],
     "autoload": {
