@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen-installer",
+    "name": "vpgame/lumen-installer",
     "description": "Lumen application installer.",
-    "keywords": ["laravel", "lumen"],
+    "keywords": ["vpgame", "lumen"],
     "license": "MIT",
     "authors": [
         {
@@ -20,6 +20,6 @@
         "symfony/process": "~2.3|~3.0"
     },
     "bin": [
-        "lumen"
+        "vpgame"
     ]
 }
