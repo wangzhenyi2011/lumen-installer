@@ -22,7 +22,7 @@ class NewCommand extends Command
         $this
             ->setName('new')
             ->setDescription('Create a new Lumen application.')
-            ->addArgument('name', InputArgument::REQUIRED);
+            ->addArgument('name', InputArgument::REQUIRED)
             ->addArgument('remote', InputArgument::REQUIRED);
     }
 
@@ -47,6 +47,7 @@ class NewCommand extends Command
         $remote = $input->getArgument('remote');
         $output->writeln('<info>Crafting application...</info>');
         exec('git clone '.$remote);
+        rename(getcwd().'/lumen',$input->getArgument('name'));
         /*
         $this->download($zipFile = $this->makeFilename())
              ->extract($zipFile, $directory)
